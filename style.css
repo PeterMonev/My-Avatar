@@ -5,9 +5,108 @@
 }
 
 body{
+/* display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+margin: 0; */
+}
+
+/* FACE */
+
+.avatar {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.head {
+    width: 25%;
+    height: 50%;
+    background:  #fca;
+    border-radius: 100% 100% / 70% 70% 120% 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mouth {
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    background: white;
+    border-radius: 50% 50% 120% 120%;
+    border: 4px solid hsl(19, 46%, 68%);
+    border-right-width: 1px;
+    border-left-width: 1px;
+    margin-top: 220px;
+   }
+
+.nose {
+    width: 15%;
+    height: 30%;
+    background: hsl(16, 55%, 68%);
+    position: absolute;
+    clip-path: polygon(55% 10%, 20% 90%, 60% 75%, 100% 90%, 100% 90%);
+}
+
+.eyes, .brows {
+    width:  60%; 
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    gap: 40px;
+}
+
+.eye {
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    border-radius: 80% 90% 100% 40% / 70% 100% 40% 100%;
+    border-top: 4px solid hsl(19, 46%, 68%);   
+    border-bottom: 4px solid hsl(19, 46%, 68%);   
+    overflow: hidden;
+    position: relative;
+}
+
+.pupil {
+  width: 25%;
+  height: 50%;
+  background: #222;
+  border-radius: 50%;    
+  top: 30%;
+  left: 40%;
+  position: absolute;
+  box-shadow: 0 0 0 2vmin rgb(75,54,33); 
+}
+
+.eye-bright {
+    width: 10%;
+    height: 15%;
+    background: white;
+    border-radius: 50%;
+    top: 25%;
+    left: 60%;
+    position: absolute;
+    box-shadow: 0.5vmin 1.50vmin 0 -0.25vmin white;
+}
+
+.brows {
+    width: 60%;
+    height: 60%;
+    gap: 30px;
+}
+
+.brow {
+  width: 50%;
+  height: 20%;
+  border-radius: 100%;
+  box-shadow: -0.25vmin -1.5vmin 0 -0.25vmin;
 }
