@@ -1,0 +1,95 @@
+
+@media all and (max-width: 1681px) {
+    .hair {
+      margin-bottom: 110%;
+    }
+  }
+  
+  @media all and (max-width: 1250px) {
+    .hair {
+      margin-bottom: 120%;
+    }
+  }
+  
+  @media all and (max-width: 1100px) {
+    .hair {
+      margin-bottom: 110%;
+    }
+  
+    .head {
+      width: 30%;
+    }
+  }
+  
+  
+  @media all and (max-width: 900px) {
+    .hair {
+      margin-bottom: 120%;
+    }
+  
+    .head {
+      width: 35%;
+    }
+  }
+  
+  @media all and (max-width: 770px) {
+    .hair {
+      margin-bottom: 110%;
+    }
+    .head {
+      width: 40%;
+    }
+  }
+  
+  @media all and (max-width: 770px) {
+    .head {
+      width: 45%;
+    }
+  }
+  
+  @media all and (max-width: 650px) {
+    .head {
+      width: 50%;
+    }
+  }
+  
+  @media all and (max-width: 560px) {
+    .hair {
+      margin-bottom: 125%;
+    }
+    .head {
+      width: 55%;
+    }
+  }
+  
+  @media all and (max-width: 460px) {
+    .hair {
+      margin-bottom: 125%;
+    }
+    .head {
+      width: 65%;
+    }
+  }
+  
+  @media all and (max-width: 400px) {
+    .hair {
+      margin-bottom: 120%;
+    }
+    .head {
+      width: 75%;
+    }
+  
+    .hair-corner::before{
+    left: 5%;
+    top: 55px
+  }
+  
+  .hair-corner::after {
+    right: 5%;
+    top: 55px;
+  }
+
+  .brows {
+    
+  }
+  }
