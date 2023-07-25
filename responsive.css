@@ -142,3 +142,27 @@
   }
 
   }
+
+  @media all and (max-width: 380px) {
+    .hair {
+      margin-bottom: 135%;
+    }
+    .head {
+      width: 75%;
+    }
+  
+    .hair-corner::before{
+    left: 5%;
+    top: 55px
+  }
+  
+  .hair-corner::after {
+    right: 5%;
+    top: 55px;
+  }
+
+  .speech {
+    padding-top: 5px;
+  }
+
+  }
