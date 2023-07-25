@@ -43,7 +43,7 @@
        transform: translateX(0px);
       }
    50% { 
-      transform: rotate(50deg);
+      transform: rotate(30deg);
      
    }
    75% {
