@@ -389,6 +389,7 @@
   color: black;
   word-wrap: break-word;
   display: none;
+  overflow: auto;
 }
 
 /* CLOSE BUTTON */

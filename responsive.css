@@ -34,6 +34,12 @@
     .thumb {
       width: 40%;
     }
+
+    .speech {
+      font-size: 20px;
+      width: 25%;
+      padding-top: 0px;
+    }
   }
   
   @media all and (max-width: 770px) {
@@ -79,14 +85,22 @@
     .head {
       width: 55%;
     }
+
+    .speech {
+      font-size: 18px;
+      width: 30%;
+      padding-top: 0px;
+      left: 1%;
+      bottom: 80%
+    }
   }
   
   @media all and (max-width: 460px) {
     .hair {
-      margin-bottom: 125%;
+      margin-bottom: 115%;
     }
     .head {
-      width: 65%;
+      width: 72%;
     }
 
     .hand {
@@ -96,6 +110,11 @@
     
     .thumb {
       width: 50%;
+    }
+
+    .speech {
+      font-size: 16px;
+      padding-top: 5px;
     }
   }
   
@@ -117,8 +136,9 @@
     top: 55px;
   }
 
-
-  .brows {
-    
+  .speech {
+    font-size: 14px;
+    padding-top: 5px;
   }
+
   }
