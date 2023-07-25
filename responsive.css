@@ -110,6 +110,7 @@
     
     .thumb {
       width: 50%;
+      left: 62%;
     }
 
     .speech {
@@ -137,7 +138,6 @@
   }
 
   .speech {
-    font-size: 14px;
     padding-top: 5px;
   }
 
