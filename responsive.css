@@ -30,6 +30,10 @@
     .head {
       width: 35%;
     }
+
+    .thumb {
+      width: 40%;
+    }
   }
   
   @media all and (max-width: 770px) {
@@ -37,6 +41,10 @@
       margin-bottom: 110%;
     }
     .head {
+      width: 40%;
+    }
+
+    .thumb {
       width: 40%;
     }
   }
@@ -50,6 +58,17 @@
   @media all and (max-width: 650px) {
     .head {
       width: 50%;
+    }
+
+    .hand {
+      width: 15%;
+      height: 25%;
+      left: 5%;
+      top: 65%
+    }
+
+    .thumb {
+      width: 40%;
     }
   }
   
@@ -68,6 +87,15 @@
     }
     .head {
       width: 65%;
+    }
+
+    .hand {
+      top: 70%;
+      width: 20%;
+    }
+    
+    .thumb {
+      width: 50%;
     }
   }
   

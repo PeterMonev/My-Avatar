@@ -5,9 +5,13 @@
 *::after {
   box-sizing: border-box;
 }
- 
+
 .body {
-  background: radial-gradient(circle, rgba(84,248,255,1) 0%, rgba(0,0,0,1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(84, 248, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 /* FACE */
@@ -47,7 +51,7 @@
   border-right-width: 1px;
   border-left-width: 1px;
   margin-top: 60%;
-} 
+}
 
 /* NOSE */
 
@@ -82,7 +86,6 @@
   border-bottom: 5px solid hsl(19, 46%, 68%);
   overflow: hidden;
   position: relative;
-  
 }
 
 .eyelid {
@@ -167,7 +170,7 @@
   width: 6%;
   height: 55px;
   transform: rotate(45deg);
-  border-radius: 150% 0 0 150% ;
+  border-radius: 150% 0 0 150%;
   background-color: black;
   top: 60px;
   left: 4%;
@@ -178,7 +181,7 @@
   right: 4%;
   transform: rotate(-45deg);
   z-index: 1;
-  border-radius: 0 150% 150% 0 ;
+  border-radius: 0 150% 150% 0;
 }
 
 /* EARS */
@@ -238,25 +241,25 @@
 }
 
 .earring-left {
-    position: absolute;
-    width: 20%;
-    height: 8%;
-    background-color: whitesmoke;
-    right: 50%;
-    top: 5%;
-    border: 1px solid black;
-    border-radius: 20px;
+  position: absolute;
+  width: 20%;
+  height: 8%;
+  background-color: whitesmoke;
+  right: 50%;
+  top: 5%;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 .earring-rigth {
-    position: absolute;
-    width: 2%;
-    height: 8%;
-    background-color: whitesmoke;
-    top: 84%;
-    left: 93%;
-    border: 1px solid black;
-    border-radius: 20px;
+  position: absolute;
+  width: 2%;
+  height: 8%;
+  background-color: whitesmoke;
+  top: 84%;
+  left: 93%;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 /* HAND */
@@ -275,9 +278,13 @@
 .palm {
   width: 60%;
   height: 40%;
-  border-radius: 30% 30% 60% 60% ;
-  background: rgb(255,204,170);
-background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1) 100%);
+  border-radius: 30% 30% 60% 60%;
+  background: rgb(255, 204, 170);
+  background: radial-gradient(
+    circle,
+    rgba(255, 204, 170, 1) 53%,
+    rgba(255, 183, 135, 1) 100%
+  );
   position: absolute;
   top: 60%;
   left: 20%;
@@ -286,10 +293,14 @@ background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1)
 /* FINGERS */
 
 .thumb {
-  width: 30%;
+  width: 35%;
   height: 10%;
-  background: rgb(255,204,170);
-  background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1) 100%);
+  background: rgb(255, 204, 170);
+  background: radial-gradient(
+    circle,
+    rgba(255, 204, 170, 1) 53%,
+    rgba(255, 183, 135, 1) 100%
+  );
   position: absolute;
   border-radius: 40%;
   top: 70%;
@@ -300,8 +311,12 @@ background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1)
 .indexFinger {
   width: 10%;
   height: 45%;
-  background: rgb(255,204,170);
-  background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1) 100%);
+  background: rgb(255, 204, 170);
+  background: radial-gradient(
+    circle,
+    rgba(255, 204, 170, 1) 53%,
+    rgba(255, 183, 135, 1) 100%
+  );
   border-radius: 30%;
   position: absolute;
   top: 25%;
@@ -312,8 +327,12 @@ background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1)
 .middleFinger {
   width: 10%;
   height: 55%;
-  background: rgb(255,204,170);
-  background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1) 100%);
+  background: rgb(255, 204, 170);
+  background: radial-gradient(
+    circle,
+    rgba(255, 204, 170, 1) 53%,
+    rgba(255, 183, 135, 1) 100%
+  );
   border-radius: 30%;
   position: absolute;
   top: 20%;
@@ -323,8 +342,12 @@ background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1)
 .namelessFinger {
   width: 10%;
   height: 45%;
-  background: rgb(255,204,170);
-  background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1) 100%);
+  background: rgb(255, 204, 170);
+  background: radial-gradient(
+    circle,
+    rgba(255, 204, 170, 1) 53%,
+    rgba(255, 183, 135, 1) 100%
+  );
   border-radius: 30%;
   position: absolute;
   top: 24%;
@@ -335,13 +358,15 @@ background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1)
 .puppyFinger {
   width: 9%;
   height: 40%;
-  background: rgb(255,204,170);
-  background: radial-gradient(circle, rgba(255,204,170,1) 53%, rgba(255,183,135,1) 100%);
+  background: rgb(255, 204, 170);
+  background: radial-gradient(
+    circle,
+    rgba(255, 204, 170, 1) 53%,
+    rgba(255, 183, 135, 1) 100%
+  );
   border-radius: 30%;
   position: absolute;
   top: 35%;
   left: 19%;
   transform: rotate(-13deg);
 }
-
-

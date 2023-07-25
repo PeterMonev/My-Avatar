@@ -25,7 +25,7 @@ head.addEventListener("mouseover", function () {
   hand.style.display = "inline";
   setTimeout(() => {
     hand.style.display = "none";
-  }, 5000);
+  }, 6000);
 });
 
 head.addEventListener("mouseout", function () {
