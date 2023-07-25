@@ -31,4 +31,43 @@
   animation: blink 4s ease-in infinite;
 }
 
+/* HAND WAVE ANIMATION */
+
+@keyframes wave {
+    0% {
+        transform: translateX(0);
+     }
+    
+     90% {
+        transform: translateX(0);
+     }
+ 
+     92.5% {
+        transform: translateX(100px);
+     }
+ 
+     95% {
+        transform: translateX(0);
+     }
+ 
+     97.5% {
+        transform: translateX(100px);
+     }
+ 
+     100% {
+        transform: translateX(0);
+     }
+
+     98.5% {
+        transform: translateX(100px);
+     }
+ 
+     100% {
+        transform: translateX(0);
+     }
+}
+
+.hand {
+   animation: wave 2s linear  infinite normal both;
+}
 
