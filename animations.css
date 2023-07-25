@@ -71,3 +71,35 @@
    animation: wave 2s linear infinite normal both;
 }
 
+/* TALKING MOUTH ANIMATION */
+
+@keyframes talikng {
+   0% {
+      height: 0;
+   }
+  
+   90% {
+      height: 0;
+   }
+
+   92.5% {
+       height: 10%;
+   }
+
+   95% {
+       height: 0;
+   }
+
+   97.5% {
+       height: 10%;
+   }
+
+   100% {
+       height: 0;
+   }
+}
+
+.mouth-animation {
+   animation: talikng 1.5s linear 3 normal forwards;
+}
+

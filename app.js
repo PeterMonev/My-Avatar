@@ -37,24 +37,35 @@ head.addEventListener("mouseout", function () {
 
 const talikingP = document.createElement('p'); 
 const speechArr = ['Hello There.','How are you my friend?','I am good thanks.' ,'My name is Peter Monev. I have been studying JavaScript.', 'My hobbies are music, workout and hiking. I also play the guitar', 'Tell me about yourself.',".........................................."];
-let speechCount = 0;
 const speechDiv = document.querySelector('.speech');
+const mouth = document.querySelector('.mouth');
+let speechCount = 0;
+
 
 head.addEventListener('click', function(event) {
     event.preventDefault;
-   
+
    for(let i = speechCount; i <= speechCount; i++){
+    mouth.classList.remove('mouth');
     talikingP.classList.add = 'speechP';
     talikingP.textContent = speechArr[i];
     speechDiv.appendChild(talikingP);
     speechDiv.style.display = 'inline';
+    mouth.classList.add('mouth-animation')
    }
+
    speechCount++;
 
    if(speechCount === 8){
     speechDiv.style.display = 'none';
     speechCount = 0;
    }
+
+   setTimeout(()=>{
+    mouth.classList.remove('mouth-animation')
+    mouth.classList.add('mouth')
+   }, 3000)
+  
 })
 
 const body = document.querySelector('.closeBtn');
