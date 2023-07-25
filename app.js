@@ -32,43 +32,50 @@ head.addEventListener("mouseout", function () {
   hand.style.display = "none";
 });
 
-
 // TALK FUNCTION
 
-const talikingP = document.createElement('p'); 
-const speechArr = ['Hello There.','How are you my friend?','I am good thanks.' ,'My name is Peter Monev. I have been studying JavaScript.', 'My hobbies are music, workout and hiking. I also play the guitar', 'Tell me about yourself.',".........................................."];
-const speechDiv = document.querySelector('.speech');
-const mouth = document.querySelector('.mouth');
+const talikingP = document.createElement("p");
+const speechArr = [
+  "Hello There.",
+  "How are you my friend?",
+  "I am good thanks.",
+  "My name is Peter Monev. I have been studying JavaScript.",
+  "My hobbies are music, workout and hiking. I also play the guitar",
+  "Tell me about yourself.",
+  "..........................................",
+];
+const speechDiv = document.querySelector(".speech");
+const mouth = document.querySelector(".mouth");
 let speechCount = 0;
 
+head.addEventListener("click", function (event) {
+  event.preventDefault;
 
-head.addEventListener('click', function(event) {
-    event.preventDefault;
-
-   for(let i = speechCount; i <= speechCount; i++){
-    mouth.classList.remove('mouth');
-    talikingP.classList.add = 'speechP';
+  for (let i = speechCount; i <= speechCount; i++) {
+    
+    talikingP.classList.add = "speechP";
     talikingP.textContent = speechArr[i];
     speechDiv.appendChild(talikingP);
-    speechDiv.style.display = 'inline';
-    mouth.classList.add('mouth-animation')
-   }
+    speechDiv.style.display = "inline";
 
-   speechCount++;
+    mouth.classList.remove("mouth");
+    mouth.classList.add("mouth-animation");
+  }
 
-   if(speechCount === 8){
-    speechDiv.style.display = 'none';
+  speechCount++;
+
+  if (speechCount === 8) {
+    speechDiv.style.display = "none";
     speechCount = 0;
-   }
+  }
 
-   setTimeout(()=>{
-    mouth.classList.remove('mouth-animation')
-    mouth.classList.add('mouth')
-   }, 3000)
-  
-})
+  mouth.addEventListener("animationend", () => {
+    mouth.classList.remove("mouth-animation");
+    mouth.classList.add("mouth");
+  });
+});
 
-const body = document.querySelector('.closeBtn');
-body.addEventListener('click', () => {
-    speechDiv.style.display = 'none';
-})
+const body = document.querySelector(".closeBtn");
+body.addEventListener("click", () => {
+  speechDiv.style.display = "none";
+});

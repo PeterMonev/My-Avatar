@@ -104,7 +104,7 @@
     }
 
     .hand {
-      top: 70%;
+      top: 64%;
       width: 20%;
     }
     
@@ -138,6 +138,7 @@
   }
 
   .speech {
+    bottom: 79%;
     padding-top: 5px;
   }
 
