@@ -259,3 +259,81 @@
     border-radius: 20px;
 }
 
+/* HAND */
+
+.hand {
+  width: 15%;
+  height: 30%;
+  background-color: transparent;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+
+.palm {
+  width: 60%;
+  height: 40%;
+  border-radius: 30% 30% 60% 60% ;
+  background-color:  #fca;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+}
+
+/* FINGERS */
+
+.thumb {
+  width: 30%;
+  height: 10%;
+  background-color: #fca;
+  position: absolute;
+  border-radius: 40%;
+  top: 70%;
+  left: 68%;
+  transform: rotate(130deg);
+}
+
+.indexFinger {
+  width: 10%;
+  height: 45%;
+  background-color:  #fca;
+  border-radius: 30%;
+  position: absolute;
+  top: 25%;
+  left: 71%;
+  transform: rotate(8deg);
+}
+
+.middleFinger {
+  width: 10%;
+  height: 55%;
+  background-color:  #fca;
+  border-radius: 30%;
+  position: absolute;
+  top: 20%;
+  left: 52%;
+}
+
+.namelessFinger {
+  width: 10%;
+  height: 45%;
+  background-color:  #fca;
+  border-radius: 30%;
+  position: absolute;
+  top: 24%;
+  left: 35%;
+  transform: rotate(-5deg);
+}
+
+.puppyFinger {
+  width: 9%;
+  height: 40%;
+  background-color:  #fca;
+  border-radius: 30%;
+  position: absolute;
+  top: 35%;
+  left: 19%;
+  transform: rotate(-13deg);
+}
+
+
