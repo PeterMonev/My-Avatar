@@ -1,3 +1,5 @@
+/* BLINK ANIMATION */
+
 @keyframes blink {
     0% {
        height: 0;
@@ -28,3 +30,5 @@
 .eyelid {
   animation: blink 4s ease-in infinite;
 }
+
+
