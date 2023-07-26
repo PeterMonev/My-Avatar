@@ -90,3 +90,20 @@
    animation: talikng 2s linear 1 normal both;
 }
 
+/* BROWS ANIMATION */
+
+.brows:hover {
+
+animation: browUp 4s ease-in infinite;
+}
+
+@keyframes browUp {
+   to {
+      transform: translateY(0px);
+   }
+  
+   From {
+      transform: translateY(-30px);
+   }
+}   
+

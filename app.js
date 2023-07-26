@@ -34,7 +34,7 @@ head.addEventListener("mouseout", function () {
   hand.style.display = "none";
 });
 
-// TALK FUNCTION
+// TALK CLICK FUNCTION
 
 const talikingP = document.createElement("p"); // P-SPEECH ELEMENT WHICH APPEND IN SPEECH DIV
 
