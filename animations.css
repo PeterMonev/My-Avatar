@@ -36,7 +36,7 @@
 @keyframes wave {
    0% { 
       transform: rotateZ(0deg);
-      transform: translateX(-50px);
+      transform: translateX(-30px);
    }
    25% {
        transform: rotateZ(25deg);
@@ -52,7 +52,7 @@
       }
    100% { 
       transform: rotateZ(-50deg); 
-      transform: translateX(-50px);
+      transform: translateX(-30px);
    }
 }
 
@@ -94,7 +94,7 @@
 
 .brows:hover {
 
-animation: browUp 4s ease-in infinite;
+animation: browUp 3s ease-in 1;
 }
 
 @keyframes browUp {
