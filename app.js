@@ -21,6 +21,7 @@ function eyesFollow() {
 const head = document.querySelector(".head");
 const hand = document.querySelector(".hand");
 
+    //  FUNCTION USE LIKE A HOVER EFFECT ON HEAD
 head.addEventListener("mouseover", function () {
   hand.style.display = "inline";
   setTimeout(() => {
@@ -28,13 +29,16 @@ head.addEventListener("mouseover", function () {
   }, 8000);
 });
 
+    //  FUNCTION WHICH REMOVE HOVER EFFECT WHEN CURSOR MOVEOUT ON HEAD
 head.addEventListener("mouseout", function () {
   hand.style.display = "none";
 });
 
 // TALK FUNCTION
 
-const talikingP = document.createElement("p");
+const talikingP = document.createElement("p"); // P-SPEECH ELEMENT WHICH APPEND IN SPEECH DIV
+
+    // ARRAY WITH SPEECHS
 const speechArr = [
   "Hello There.",
   "How are you my friend?",
@@ -46,11 +50,12 @@ const speechArr = [
 ];
 const speechDiv = document.querySelector(".speech");
 const mouth = document.querySelector(".mouth");
-let speechCount = 0;
+let speechCount = 0; // SPEECH COUNTER
 
 head.addEventListener("click", function (event) {
   event.preventDefault;
 
+    // FOR LOOP WHICH ITERATE ALL SPEECH
   for (let i = speechCount; i <= speechCount; i++) {
     
     talikingP.classList.add = "speechP";
@@ -58,23 +63,27 @@ head.addEventListener("click", function (event) {
     speechDiv.appendChild(talikingP);
     speechDiv.style.display = "inline";
 
+        // REMOVE NORMAL CLASS ON MOUTH AND ADDING ANIMATION CSS CLASS
     mouth.classList.remove("mouth");
     mouth.classList.add("mouth-animation");
   }
 
-  speechCount++;
+  speechCount++; // EVERY CLICK ON HEAD ADDS +1 AND MAKE FOR LOOP REACH NEXT SPEECH
 
+    // STATEMENT WHO CHECH THE LIMIT OF SPEECHS
   if (speechCount === 8) {
     speechDiv.style.display = "none";
     speechCount = 0;
   }
 
+      // FUNCTION WHICH STOP ANIMATION ON MOUTH CHANGE THE CLASSES ON MOUTH ELEMENT 
   mouth.addEventListener("animationend", () => {
     mouth.classList.remove("mouth-animation");
     mouth.classList.add("mouth");
   });
 });
 
+    // CLOSE BUTTON WHICH CAN REMOVE SPEECH DIV
 const body = document.querySelector(".closeBtn");
 body.addEventListener("click", () => {
   speechDiv.style.display = "none";

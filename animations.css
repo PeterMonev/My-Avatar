@@ -35,23 +35,23 @@
 
 @keyframes wave {
    0% { 
-      transform: rotate(0deg);
+      transform: rotateZ(0deg);
       transform: translateX(-50px);
    }
    25% {
-       transform: rotate(25deg);
+       transform: rotateZ(25deg);
        transform: translateX(0px);
       }
    50% { 
-      transform: rotate(30deg);
+      transform: rotateZ(30deg);
      
    }
    75% {
-       transform: rotate(-25deg); 
+       transform: rotateZ(-25deg); 
       
       }
    100% { 
-      transform: rotate(-50deg); 
+      transform: rotateZ(-50deg); 
       transform: translateX(-50px);
    }
 }

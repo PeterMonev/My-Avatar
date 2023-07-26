@@ -1,137 +1,147 @@
+/* RESPONSIVE AT 1681px WIDTH */
 
 @media all and (max-width: 1681px) {
-    .hair {
-      margin-bottom: 110%;
-    }
+  .hair {
+    margin-bottom: 110%;
   }
-  
-  @media all and (max-width: 1250px) {
-    .hair {
-      margin-bottom: 120%;
-    }
-  }
-  
-  @media all and (max-width: 1100px) {
-    .hair {
-      margin-bottom: 110%;
-    }
-  
-    .head {
-      width: 30%;
-    }
-  }
-  
-  
-  @media all and (max-width: 900px) {
-    .hair {
-      margin-bottom: 120%;
-    }
-  
-    .head {
-      width: 35%;
-    }
+}
 
-    .thumb {
-      width: 40%;
-    }
+/* RESPONSIVE AT 1250px WIDTH */
 
-    .speech {
-      font-size: 20px;
-      width: 25%;
-      padding-top: 0px;
-    }
+@media all and (max-width: 1250px) {
+  .hair {
+    margin-bottom: 120%;
   }
-  
-  @media all and (max-width: 770px) {
-    .hair {
-      margin-bottom: 110%;
-    }
-    .head {
-      width: 40%;
-    }
+}
 
-    .thumb {
-      width: 40%;
-    }
+/* RESPONSIVE AT 1100px WIDTH */
+
+@media all and (max-width: 1100px) {
+  .hair {
+    margin-bottom: 110%;
   }
-  
-  @media all and (max-width: 770px) {
-    .head {
-      width: 45%;
-    }
+
+  .head {
+    width: 30%;
   }
-  
-  @media all and (max-width: 650px) {
-    .head {
-      width: 50%;
-    }
+}
 
-    .hand {
-      width: 15%;
-      height: 25%;
-      left: 5%;
-      top: 65%
-    }
+/* RESPONSIVE AT 900px WIDTH */
 
-    .thumb {
-      width: 40%;
-    }
+@media all and (max-width: 900px) {
+  .hair {
+    margin-bottom: 120%;
   }
-  
-  @media all and (max-width: 560px) {
-    .hair {
-      margin-bottom: 125%;
-    }
-    .head {
-      width: 55%;
-    }
 
-    .speech {
-      font-size: 18px;
-      width: 30%;
-      padding-top: 0px;
-      left: 1%;
-      bottom: 80%
-    }
+  .head {
+    width: 35%;
   }
-  
-  @media all and (max-width: 460px) {
-    .hair {
-      margin-bottom: 115%;
-    }
-    .head {
-      width: 72%;
-    }
 
-    .hand {
-      top: 64%;
-      width: 20%;
-    }
-    
-    .thumb {
-      width: 50%;
-      left: 62%;
-    }
-
-    .speech {
-      font-size: 16px;
-      padding-top: 5px;
-    }
+  .thumb {
+    width: 40%;
   }
-  
-  @media all and (max-width: 400px) {
-    .hair {
-      margin-bottom: 120%;
-    }
-    .head {
-      width: 75%;
-    }
-  
-    .hair-corner::before{
+
+  .speech {
+    font-size: 20px;
+    width: 25%;
+    padding-top: 0px;
+  }
+}
+
+/* RESPONSIVE AT 770px WIDTH */
+
+@media all and (max-width: 770px) {
+  .hair {
+    margin-bottom: 110%;
+  }
+  .head {
+    width: 45%;
+  }
+
+  .thumb {
+    width: 40%;
+  }
+}
+
+/* RESPONSIVE AT 650px WIDTH */
+
+@media all and (max-width: 650px) {
+  .head {
+    width: 50%;
+  }
+
+  .hand {
+    width: 15%;
+    height: 25%;
     left: 5%;
-    top: 55px
+    top: 65%;
   }
-  
+
+  .thumb {
+    width: 40%;
+  }
+}
+
+/* RESPONSIVE AT 560px WIDTH */
+
+@media all and (max-width: 560px) {
+  .hair {
+    margin-bottom: 125%;
+  }
+  .head {
+    width: 55%;
+  }
+
+  .speech {
+    font-size: 18px;
+    width: 30%;
+    padding-top: 0px;
+    left: 1%;
+    bottom: 80%;
+  }
+}
+
+/* RESPONSIVE AT 460px WIDTH */
+
+@media all and (max-width: 460px) {
+  .hair {
+    margin-bottom: 115%;
+  }
+  .head {
+    width: 72%;
+  }
+
+  .hand {
+    top: 64%;
+    width: 20%;
+  }
+
+  .thumb {
+    width: 50%;
+    left: 62%;
+  }
+
+  .speech {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+}
+
+/* RESPONSIVE AT 400px WIDTH */
+
+@media all and (max-width: 400px) {
+  .hair {
+    margin-bottom: 120%;
+  }
+  .head {
+    width: 75%;
+  }
+
+  .hair-corner::before {
+    left: 5%;
+    top: 55px;
+  }
+
   .hair-corner::after {
     right: 5%;
     top: 55px;
@@ -141,22 +151,23 @@
     bottom: 79%;
     padding-top: 5px;
   }
+}
 
+/* RESPONSIVE AT 380px WIDTH */
+
+@media all and (max-width: 380px) {
+  .hair {
+    margin-bottom: 135%;
+  }
+  .head {
+    width: 75%;
   }
 
-  @media all and (max-width: 380px) {
-    .hair {
-      margin-bottom: 135%;
-    }
-    .head {
-      width: 75%;
-    }
-  
-    .hair-corner::before{
+  .hair-corner::before {
     left: 5%;
-    top: 55px
+    top: 55px;
   }
-  
+
   .hair-corner::after {
     right: 5%;
     top: 55px;
@@ -165,5 +176,4 @@
   .speech {
     padding-top: 5px;
   }
-
-  }
+}
